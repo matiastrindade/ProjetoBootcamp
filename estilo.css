@@ -236,25 +236,25 @@ section {
         color: var(--cinza-hover);
     }
 
-    @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){
 
         /* Menu */
-        #principal{        
+        #principal{       
             flex-direction: column;
             height:auto;
         }
     
-        #menu{
+        #Menu{
             flex-direction: column;
             width:100%;   
             margin:0px;     
             
         }
     
-        #menu a{
-            display:flex;
+        #Menu a{
+            display: flex;
             align-items: center;
-            height:50px;      
+            height: 50px;      
             
         }
     
@@ -280,6 +280,18 @@ section {
             font-size:20px
         }
     
-        .checkbox-itens label{
-            font-size:17px;
+        .checkbox-intens label{
+            font-size: 17px;
         }
+
+        /* footer */
+
+        footer .linha1{
+            flex-direction: column;
+        }
+
+        footer .endereco{
+            width: 95%;
+            margin-bottom: 20px;
+        }
+    }
